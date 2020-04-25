@@ -1,0 +1,35 @@
+.form-container {
+    padding: 20px;
+    width: 800px;
+    background: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba($color: #888, $alpha: 0.5);
+}
+
+.cars-container {
+    border: 1px solid #f8f8f8;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 5px 5px 20px rgba($color: #888, $alpha: 0.5);
+    margin-bottom: 20px;
+}
+
+.add-btn {
+    background: lightblue;
+    border: 1px solid #aaa;
+    border-radius: 100%;
+    padding: 1px 8px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    cursor: pointer;
+    color: #666;
+    transition: 0.3s;
+
+    &:hover {
+        transform: scale(1.2);
+        color: black;
+        transition: 0.3s;
+    }
+}
