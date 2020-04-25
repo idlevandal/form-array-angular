@@ -8,6 +8,12 @@ import { FormGroup, FormControl, FormArray } from '@angular/forms';
 })
 export class AppComponent {
 
+  // 1. create a class member & set it equal to new FormArray([]);
+  // 2. create a formGroup and set the class variable as 1 of the formGroups Controls
+  // 3. create a method to add control/controls to the FormArray class member
+  // 4. create a delete method using the .removeAt(index) function.
+  // 5. Optionally add an initial value to the FormArray in OnInit by calling step 3 add method
+
   carsArr = new FormArray([]);
 
   ngOnInit(): void {
